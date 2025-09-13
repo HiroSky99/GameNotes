@@ -65,3 +65,17 @@
 	actor.weightMax = 25
 	改成
 	actor.weightMax = 1025
+
+### 给恢復藥水加上漂浮效果
+
+1- 打开游戏目录下的以下文件 `resources\app\src\data\Items.json`
+
+	effects":[]
+	改成
+	effects":[{"code":21,"dataId":33,"value1":1,"value2":0}]
+
+### 替换活力藥水和天眼之石的id
+
+1- 打开游戏目录下的以下文件 `resources\app\src\data\Items.json`
+
+2- 替换id-3-活力藥水和id-38-天眼之石
